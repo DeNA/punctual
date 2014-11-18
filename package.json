@@ -1,0 +1,46 @@
+{
+  "name": "punctual",
+  "author": "ngmoco, LLC. (http://developer.mobage.com)",
+  "description": "Redis-backed task queue for delayed job processing.",
+  "contributors": [
+    "Alex Ehrnschwender <alex.ehrnschwender@dena.com>",
+    "Daniel Foley <daniel.foley@dena.com>"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "url": "git@github.com:DeNA/punctual.git"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "DEBUG=punctual make test",
+    "cov": "make coverage"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
+    }
+  },
+  "dependencies": {
+    "async": "0.2.5",
+    "debug": "~2.1.0",
+    "redis": "0.8.0",
+    "revalidator": "0.1.1",
+    "underscore": "1.5.2"
+  },
+  "devDependencies": {
+    "blanket": "~1.1.6",
+    "mocha": "~1.18.2",
+    "sinon": "~1.7.3"
+  },
+  "engines": [
+    "node >=0.8.26"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/DeNA/punctual/raw/master/LICENSE"
+    }
+  ]
+}

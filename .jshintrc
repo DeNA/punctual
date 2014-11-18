@@ -1,0 +1,108 @@
+{
+    "asi"         : false, // if automatic semicolon insertion should be tolerated
+    "bitwise"     : false, // if bitwise operators should not be allowed
+    "boss"        : true,  // if advanced usage of assignments should be allowed
+    "camelcase"   : false, // if identifiers should be required in camel case
+    "curly"       : false,  // if curly braces around all blocks should be required
+    "debug"       : true,  // if debugger statements should be allowed
+    "devel"       : true,  // if logging globals should be predefined (console, alert, etc.)
+    "eqeqeq"      : true,  // if === should be required
+    "eqnull"      : false, // if == null comparisons should be tolerated
+    "evil"        : false, // if eval should be allowed
+    "expr"        : false, // if ExpressionStatement should be allowed as Programs
+    "forin"       : true,  // if for in statements must filter
+    "funcscope"   : true,  // if only function scope should be used for scope tests
+    "globalstrict": true,  // if global "use strict"; should be allowed (also enables 'strict')
+    "immed"       : true,  // if immediate invocations must be wrapped in parens
+    "iterator"    : true,  // if the `__iterator__` property should be allowed
+    "lastsemic"   : false, // if semicolons may be ommitted for the trailing
+                           // statements inside of a one-line blocks.
+    "laxbreak"    : true,  // if line breaks should not be checked
+    "laxcomma"    : true,  // if line breaks should not be checked around commas
+    "loopfunc"    : false, // if functions should be allowed to be defined within
+                           // loops
+    "multistr"    : true, // allow multiline strings
+    "newcap"      : true,  // if constructor names must be capitalized
+    "noarg"       : true,  // if arguments.caller and arguments.callee should be
+                           // disallowed
+    "noempty"     : true,  // if empty blocks should be disallowed
+    "nonew"       : true,  // if using `new` for side-effects should be disallowed
+    "nonstandard" : true,  // if non-standard (but widely adopted) globals should
+                           // be predefined
+    "nomen"       : false, // if names should be checked
+    "plusplus"    : false, // if increment/decrement should not be allowed
+    "proto"       : true,  // if the `__proto__` property should be allowed
+    "typed"       : true,  // if typed array globals should be predefined
+    "undef"       : true,  // if variables should be declared before used
+    "scripturl"   : true,  // if script-targeted URLs should be tolerated
+    "shadow"      : false, // if variable shadowing should be tolerated
+    "smarttabs"   : true,  // if smarttabs should be tolerated
+                           // (http://www.emacswiki.org/emacs/SmartTabs)
+    "strict"      : true,  // require the "use strict"; pragma
+    "sub"         : true,  // if all forms of subscript notation are tolerated
+    "supernew"    : false, // if `new function () { ... };` and `new Object;`
+                           // should be tolerated
+    "trailing"    : false,  // if trailing whitespace rules apply
+    "validthis"   : true,  // if 'this' inside a non-constructor function is valid.
+                           // This is a function scoped option only.
+    "withstmt"    : false, // if with statements should be allowed
+    "white"       : false, // if strict whitespace rules apply
+    // Environments
+    //"es3"         : true,  // if ES3 syntax should be allowed
+    //"es5"         : true,  // if ES5 syntax should be allowed (is now set per default)
+    "esnext"      : false, // if es.next specific syntax should be allowed
+
+    "browser"     : false, // if the standard browser globals should be predefined
+    "couch"       : false, // if CouchDB globals should be predefined
+    "dojo"        : false, // if Dojo Toolkit globals should be predefined
+    "gcl"         : false, // if JSHint should be compatible with Google Closure Linter
+    "jquery"      : false, // if jQuery globals should be predefined
+    "moz"         : false, // if mozilla specific syntax should be allowed
+    "mootools"    : false, // if MooTools globals should be predefined
+    "node"        : true,  // if the Node.js environment globals should be
+                           // predefined
+    "phantom"     : false, // if PhantomJS symbols should be allowed
+    "prototypejs" : false, // if Prototype and Scriptaculous globals should be
+                           // predefined
+    "rhino"       : false, // if the Rhino environment globals should be predefined
+    "shelljs"     : false, // if ShellJS globals should be predefined
+    "worker"      : false, // if Web Worker script symbols should be allowed
+    "wsh"         : false, // if the Windows Scripting Host environment globals
+                           // should be predefined
+    "yui"         : false, // YUI variables should be predefined
+
+    // Obsolete options
+    "onecase"     : false, // if one case switch statements should be allowed
+    "regexp"      : false, // if the . should not be allowed in regexp literals
+    "regexdash"   : false, // if unescaped first/last dash (-) inside brackets
+                           // should be tolerated
+    // Variable options
+    "indent"       : 4,
+    "maxerr"       : false,
+    "predef"       : [     // Custom globals.
+        "describe",
+        "it",
+        "before",
+        "beforeEach",
+        "after",
+        "afterEach",
+        "expect",
+        "test",
+        "suite"
+    ],
+    "quotmark"     : false,  //'single'|'double'|true
+    "scope"        : false,
+    "maxstatements": false,  // {int} max statements per function
+    "maxdepth"     : false,  // {int} max nested block depth per function
+    "maxparams"    : false,  // {int} max params per function
+    "maxcomplexity": false,  // {int} max cyclomatic complexity per function
+    "unused"       : true, // warn if variables are unused. Available options:
+                             //   false    - don't check for unused variables
+                             //   true     - "vars" + check last function param
+                             //   "vars"   - skip checking unused function params
+                             //   "strict" - "vars" + check all function params
+    "latedef"      : false   // warn if the variable is used before its definition
+                             //   false    - don't emit any warnings
+                             //   true     - warn if any variable is used before its definition
+                             //   "nofunc" - warn for any variable but function declarations
+}

@@ -1,0 +1,14 @@
+*.log
+*.pid
+*.csv
+*.gz
+*.rdb
+*.DS_Store
+*.seed
+.idea
+.project
+lib-cov
+.editorconfig
+node_modules
+doc/*
+coverage.html
