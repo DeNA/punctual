@@ -152,11 +152,12 @@ Because it is a basis for customization, the TaskRunner base class is rather bar
 Task runners can be assigned with scheduler initialization:
 ```javascript
 var scriptTaskRunner = TaskRunner.create({ taskTypes: ['script', 'executable'] });
-scriptTaskRunner.prototype.run = function(task){
+
+TaskRunner.prototype.runTask = function(task){
     require('child_process').exec( task.script, console.log );
 };
 
-var scheduler = TaskScheduler.create({ taskRunners: { scriptTaskRunner: scriptTaskRunner });
+var scheduler = TaskScheduler.create({ taskRunners: { scriptTaskRunner: scriptTaskRunner }});
 ```
 
 Or they can be registered to an existing scheduler instance: 
