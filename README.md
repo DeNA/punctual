@@ -169,6 +169,18 @@ scheduler.registerTaskRunner( scriptTaskRunner, ['script', 'executable'] );
 
 
 
+## Example Usage
+
+See [examples/server.js](https://github.com/DeNA/redis/blob/master/examples/server.js) and [examples/worker.js](https://github.com/DeNA/redis/blob/master/examples/worker.js) for complete working usage examples.
+
+```
+cd examples
+./server.js
+```
+
+
+
+
 ## Running Tests
 Tests are written in [Mocha](https://github.com/visionmedia/mocha), and can be run in development NODE_ENV.
 Install dev dependencies and run tests with: 
