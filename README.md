@@ -1,4 +1,4 @@
-# punctual [![Build Status](https://travis-ci.org/DeNA/punctual.png)](https://travis-ci.org/DeNA/punctual)
+# punctual [![Build Status](https://travis-ci.org/DeNA/punctual.png?branch=master)](https://travis-ci.org/DeNA/punctual)
 Redis-backed task queuing, polling, and processing mechanism for delayed task execution.  
 
 
