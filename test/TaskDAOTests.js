@@ -160,7 +160,7 @@ describe( exports.name, function(){
                 tasks.forEach(function(task){
                     assert.ok( task instanceof Task );
                     assert.ok( task.active );
-                    assert.ok( lowerLimit < task.scheduledFor <= upperLimit );
+                    assert.ok( lowerLimit < task.scheduledFor && task.scheduledFor <= upperLimit );
                 });
 
                 // anything we got was purged
