@@ -171,7 +171,7 @@ scheduler.registerTaskRunner( scriptTaskRunner, ['script', 'executable'] );
 
 ## Example Usage
 
-See [examples/server.js](https://github.com/DeNA/redis/blob/master/examples/server.js) and [examples/worker.js](https://github.com/DeNA/redis/blob/master/examples/worker.js) for complete working usage examples.
+See [examples/server.js](https://github.com/DeNA/punctual/blob/master/examples/server.js) and [examples/worker.js](https://github.com/DeNA/punctual/blob/master/examples/worker.js) for complete working usage examples.
 
 ```
 cd examples
