@@ -44,7 +44,7 @@ var addTaskTimer = setInterval(function() {
         type: 'testType',
         scheduledFor: (new Date().getTime() + 1000), // 1s in future
         environment: 'development',
-        tagger: 'anyonymous',
+        tagger: 'anonymous',
         active: true,
         data: JSON.stringify({
             test: true,
