@@ -6,7 +6,7 @@
     "Alex Ehrnschwender <alex.ehrnschwender@dena.com>",
     "Daniel Foley <daniel.foley@dena.com>"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "repository": {
     "url": "git@github.com:DeNA/punctual.git"
